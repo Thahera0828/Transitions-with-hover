@@ -1,0 +1,86 @@
+.container{
+    width: 1000px;
+    height: 650px;
+    margin-left: 100px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap:wrap ; 
+    gap: 40px;
+}
+.child{
+  width: 200px;
+  height: 300px;
+  /* border: 2px solid; */
+  margin-left: 10px;
+  position: relative;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+.child1 .text{
+    width: 200px;
+    height: 300px;
+    opacity: 0;
+    position: absolute;
+    font-size: 17px;
+}
+.child2 .text{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-size: 17px;
+}
+.child3 .text{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-size: 17px;
+}
+.child4 .text{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-size: 17px;
+}
+.child5 .text{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-size: 17px;
+}
+.child6 .text{
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 17px;
+}
+.child7 .text{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-size: 17px;
+}
+.child8 .text{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    font-size: 17px;
+} 
+.child:hover img{
+    display: none;
+}
+.text:hover{
+    opacity: 1;
+    background-color: lightblue;
+    color: white;
+} 
